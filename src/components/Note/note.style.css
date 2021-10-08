@@ -1,0 +1,63 @@
+.note__content {
+	color: darkslategrey;
+	flex-grow: 1;
+	padding: 20px;
+	border: none;
+	min-width: 200px;
+	background-color: rgba(244, 212, 108, 0.755);
+}
+
+.note__line {
+	border-top: 1px solid green;
+	width: 100%;
+	padding: 5px;
+	height: 1px;
+}
+
+.note__container {
+	background: #fff;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	margin: 1rem;
+	width: 300px;
+	padding: 10px;
+}
+
+.note__title {
+	font-size: 16px;
+	background-color: grey;
+	color: white;
+	width: 100%;
+	padding: 5px;
+}
+
+.note__btn {
+ background-color: rgb(208, 47, 29);
+ padding: 10px;
+ width: 80px;
+ height: 40px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ transition:ease-in-out 0.5s;
+ -webkit-transition:ease-in-out 0.5s;
+ -moz-transition:ease-in-out 0.5s;
+ -ms-transition:ease-in-out 0.5s;
+ -o-transition:ease-in-out 0.5s;
+}
+.note__btn:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+   transition:ease-in-out 0.5s;
+ -webkit-transition:ease-in-out 0.5s;
+ -moz-transition:ease-in-out 0.5s;
+ -ms-transition:ease-in-out 0.5s;
+ -o-transition:ease-in-out 0.5s;
+}
