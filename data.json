@@ -1,5 +1,9 @@
 {
-    "id": 1,
-    "title": "",
-    "content": ""
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "content": "typicode"
+        }
+    ]
 }
